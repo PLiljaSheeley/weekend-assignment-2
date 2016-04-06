@@ -1,0 +1,82 @@
+#bigMovie1, #bigMovie2, #bigMovie3, body, html, #topBar, button, input, img{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body{
+	margin:auto;
+	background:#003366;
+}
+#movie1, #movie2, #movie3 {
+	display:none;
+}
+
+img{
+	height:100%;
+	width:100%;
+	display:inline-block;
+	
+}
+#bigMovie1, #bigMovie2, #bigMovie3{
+	display:inline-block;
+	width:25%;
+	padding:0;
+	margin-left: 4em;
+}
+#topBar{
+	padding:1.5em;
+	background:#0099ff;
+
+}
+.container{
+	width:20%;
+	margin:auto;
+	
+}
+input{
+	width:100%;
+	height:2em;
+}
+button {
+	margin-bottom: 1em;
+   width:16%;
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0a46fa), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #0a46fa, #65a9d7);
+   background: -moz-linear-gradient(top, #0a46fa, #65a9d7);
+   background: -ms-linear-gradient(top, #0a46fa, #65a9d7);
+   background: -o-linear-gradient(top, #0a46fa, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+button:hover {
+   border-top-color: #07338a;
+   background: #07338a;
+   color: #ccc;
+   }
+button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+ #getMovie{
+ 	width:100%;
+ }
+ #showMovie1, #showMovie2, #showMovie3, #hideMovie1, #hideMovie2, #hideMovie3{
+ 	display: inline-flex;
+ }
+ p{
+ 	color:white;
+ }

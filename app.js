@@ -24,22 +24,22 @@ $(function(){
     });
 
   $("#showMovie1").on("click", function(){
-    $("#movie1").show();
+    $("#movie1").show(1200);
   });
   $("#showMovie2").on("click", function(){
-    $("#movie2").show();
+    $("#movie2").show(1200);
   });
   $("#showMovie3").on("click", function(){
-    $("#movie3").show();
+    $("#movie3").show(1200);
   });
     $("#hideMovie1").on("click", function(){
-    $("#movie1").hide();
+    $("#movie1").hide(1200);
   });
   $("#hideMovie2").on("click", function(){
-    $("#movie2").hide();
+    $("#movie2").hide(1200);
   });
   $("#hideMovie3").on("click", function(){
-    $("#movie3").hide();
+    $("#movie3").hide(1200);
   });
     
 
@@ -52,7 +52,6 @@ $(function(){
     $.get('http://www.omdbapi.com/?t=' + userInput + '&y=&plot=short&r=json').done(function(response){
       console.log(response);
       movie = response;
-      $('.userMovie').append("<img id='newMovie' src=''>")
       $('#newMovie').attr('src',movie.Poster);
       });
     }
